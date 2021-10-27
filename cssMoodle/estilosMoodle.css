@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+body {
+    margin: 0;
+    
+}
+
+
+/*ESTILOS DEL HEADER*/
+.header{
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(to bottom,
+    rgb(94, 94, 243),rgba(0, 0, 255, 0.267), rgb(255, 59, 59)
+    ); /*url(imagenesMoodle/entradaUmss3.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;*/
+}
+.header .contenedor{
+    display: flex;
+    justify-content: space-around;
+    /*url(imagenesMoodle/entradaUmss3.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;*/
+
+}
+.textosHeader{
+    width: 100%;
+    height: 40%;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    
+    text-align: center;
+}
+.textosHeader .h1{
+    font-size: 500px;
+}
+.textosHeader .h4{
+    top: 100px;
+}
+
+/*ESTILOS DE MENU*/
+ul{
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+ul li{
+    list-style: none;
+    float: left;
+}
+
+.nav {
+    position: absolute;
+    top: 250px;
+    /*left: -100%;*/
+    width: 100%;
+    transition: all 0.5s;
+}
+.menu {
+    background-color: whitesmoke;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    z-index: 999;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    margin-bottom: 1000px;
+
+
+}
+
+.menu_link {
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 30px;
+    background-color: rgb(250, 61, 61);
+    margin: 0 10px;
+    transition: .5s ease all;
+    color: blue(255, 19, 19);
+    text-decoration: none;
+    
+}
+.menu_link:hover {
+    background: whitesmoke;
+    color: red;
+}
+
+.mostrar {
+    left: 0;
+}
+.select {
+    background: yellow;
+    color: #ffff;
+}
+
+/*ESTILOS DEL BANNER*/
+.banner {
+    margin-top: -1px;
+    position: relative;
+    z-index: -1000;
+}
+
+
+
